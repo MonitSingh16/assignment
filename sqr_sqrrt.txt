@@ -1,0 +1,26 @@
+import math  # Import the math module for square root
+
+def add_numbers(a, b):
+    return a + b
+
+def subtract_numbers(a, b):
+    return a - b
+
+def square_number(a):
+    return a ** 2
+
+def square_root(a):
+    return math.sqrt(a)
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+add_result = add_numbers(num1, num2)
+subtract_result = subtract_numbers(num1, num2)
+square_result = square_number(num1)
+square_root_result = square_root(num1)
+
+print("Sum:", add_result)
+print("Difference:", subtract_result)
+print("Square of the first number:", square_result)
+print("Square root of the first number:", square_root_result)
